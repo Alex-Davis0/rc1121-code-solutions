@@ -9,12 +9,7 @@ button:hover {
   color: white;
 }
 
-th:nth-child(even) {
-  background-color: black;
-  color: white;
-}
-
-th:nth-child(odd) {
+th:nth-child(n) {
   background-color: black;
   color: white;
 }
