@@ -5,7 +5,9 @@ body {
 
 label {
   letter-spacing: -1px;
-  font-weight: bold;
+  font-weight: 548;
+  font-size: 0.9rem;
+  margin: 5px;
 }
 
 h2 {
@@ -20,10 +22,12 @@ input {
   border-color: lightgray;
   width: 30rem;
   height: 2rem;
+  border-style: outset;
+  border-width: thin;
 }
 
 select {
-  background-color: lightgrey;
+  background-color: whitesmoke;
   margin-bottom: 10px;
   width: 30rem;
   border-radius: 5px;
@@ -37,9 +41,15 @@ button {
   border: white;
   margin-left: 26.5rem;
   height: 2rem;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 form {
   margin: 0 auto;
   width: 600px;
+}
+
+input:placeholder-shown {
+  text-indent: 7px;
 }
