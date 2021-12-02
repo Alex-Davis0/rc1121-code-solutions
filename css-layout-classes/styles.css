@@ -21,6 +21,10 @@
   width: calc((100% / 3) * 2);
 }
 
+.column-one-fourth {
+  width: calc(100% / 4);
+}
+
 img {
   width: 100%;
 }
