@@ -7,17 +7,12 @@
 
 .row {
   display: flex;
-  justify-content: center;
-  align-content: center;
   letter-spacing: 0.1rem;
   line-height: 1.5rem;
 }
 
 .column-one-forth {
-  margin: 1.5rem;
-}
-
-.column-one-half {
+  width: 25%;
   margin: 1.5rem;
 }
 
@@ -29,14 +24,13 @@ h3 {
   text-transform: uppercase;
 }
 
+.button {
+  text-align: center;
+}
+
 button {
   background-color: white;
   color: red;
   border-color: red;
   padding: 5px 30px 5px 30px;
-}
-
-.pic {
-  display: flex;
-  flex-wrap: wrap-reverse;
 }
