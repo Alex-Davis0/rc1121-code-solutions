@@ -1,0 +1,42 @@
+.container {
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+}
+
+.column-one-forth {
+  margin: 1.5rem;
+}
+
+.column-one-half {
+  margin: 1.5rem;
+}
+
+.column-full {
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+button {
+  background-color: white;
+  color: red;
+  border-color: red;
+  padding: 5px 30px 5px 30px;
+}
+
+.pic {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
