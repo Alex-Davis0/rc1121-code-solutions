@@ -1,0 +1,25 @@
+.container {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Barlow', sans-serif;
+  background-color: #f7f8fa;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column-one-fourth {
+  flex-basis: calc(100% / 4);
+  text-align: center;
+}
+
+.screen {
+  height: 450px;
+}
+
+.icon {
+  height: 90px;
+}
