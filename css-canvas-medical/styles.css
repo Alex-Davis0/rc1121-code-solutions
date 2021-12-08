@@ -1,0 +1,152 @@
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.header-row {
+  border-bottom: solid;
+  border-bottom-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blue-logo {
+  margin-top: 35px;
+  height: 30px;
+}
+
+.column-one-quarter {
+  flex-basis: calc(100% / 4);
+}
+
+.column-half {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  flex-basis: calc(100% / 2);
+}
+
+.contact-us-button {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #326186;
+  color: white;
+  font-size: medium;
+}
+
+.nav-items {
+  display: inline-flex;
+  font-size: large;
+}
+
+.nav-items a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.emr-row {
+  display: flex;
+  margin: auto;
+  background-image: url(images/hero.jpg);
+  background-size: cover;
+  width: 1250px;
+  height: 500px;
+}
+
+.EMR-column {
+  margin-left: 70px;
+  max-width: 450px;
+  color: white;
+  font-size: large;
+  line-height: 1.75rem;
+}
+
+.get-started-button {
+  width: 135px;
+  height: 50px;
+  font-size: large;
+  background-color: #326186;
+  color: white;
+  border-radius: 6px;
+}
+
+.prefer-row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 1300px;
+  background-color: #fafafa;
+  color: #888;
+  justify-content: space-around;
+  font-size: larger;
+}
+
+.column-top {
+  text-align: center;
+}
+
+.column-prefer {
+  flex-basis: calc(100% / 2);
+  text-align: center;
+}
+
+.double-one {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+.learn-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.learn-column {
+  color: #888;
+}
+
+.get-started-button-2 {
+  margin-top: 35px;
+  margin-right: 45px;
+}
+
+.information-row {
+  display: flex;
+  justify-content: space-around;
+  background-color: #525351;
+  height: 400px;
+  color: white;
+}
+
+.logo-white {
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+.info-column {
+  flex-basis: calc(100% / 3);
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.info-list {
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+.footer-row {
+  display: flex;
+  gap: 25px;
+  margin-left: 55px;
+}
