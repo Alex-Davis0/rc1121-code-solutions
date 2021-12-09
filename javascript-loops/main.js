@@ -9,10 +9,10 @@
 
 function getNumbersToTen() {
   var numbers = [];
-  var currentNumber = 0;
-  while (currentNumber < 10) {
-    currentNumber++;
+  var currentNumber = 1;
+  while (currentNumber < 11) {
     numbers.push(currentNumber);
+    currentNumber++;
   }
   return numbers;
 }
@@ -62,7 +62,7 @@ function getKeys(object) {
 function getValues(object) {
   var values = [];
   for (var value in object) {
-    values.push(`${object[value]}`);
+    values.push(object[value]);
   }
   return values;
 }
