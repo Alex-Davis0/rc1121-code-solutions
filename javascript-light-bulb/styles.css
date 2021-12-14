@@ -1,0 +1,33 @@
+.back.off {
+  background-size: cover;
+  background-color: #111;
+}
+
+.back.on {
+  background-size: cover;
+  background-color: #fef9f1;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1200px;
+}
+
+.button {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border-style: none;
+}
+
+.button.off {
+  background-color: #252525;
+  box-shadow: -15px 15px -15px #060606;
+}
+
+.button.on {
+  background-color: #faea84;
+  box-shadow: 0 0 0 5px yellow;
+}
