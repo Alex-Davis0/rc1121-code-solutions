@@ -11,6 +11,7 @@ document.addEventListener('keydown', function (event) {
     $color.className = 'color correct';
     keys++;
     $color = $color.nextElementSibling;
+    $color.className = 'color current';
   }
 
 });
