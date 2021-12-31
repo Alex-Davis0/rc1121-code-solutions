@@ -1,0 +1,22 @@
+.conatainer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-back,
+.button-next {
+  border: transparent;
+  background-color: transparent;
+}
+
+.circle {
+  margin: 0.75rem;
+}
