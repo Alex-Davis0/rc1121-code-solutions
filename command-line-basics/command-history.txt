@@ -1,0 +1,188 @@
+    1  cd repos
+    2  cd rc1121-code-solutions
+    3  git branch http-messages
+    4  git switch http-messages
+    5  http *https://example.com
+    6  http https://example.com
+    7  http --verbose https://example.com
+    8  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+    9  http --body GET https://example.com > http-messages/index.html
+   10  git add http-messages
+   11  git commit -m "Completed http-messages."
+   12  git push origin http-messages
+   13  git switch master
+   14  git pull origin master
+   15  git bracnh javascript-ajax
+   16  git branch javascript-ajax
+   17  git switch javascript-ajax
+   18  git add javascript-ajax
+   19  git commit -m "Completed javascript-ajax."
+   20  git push origin javascript-ajax
+   21  git switch master
+   22  git add javascript-ajax
+   23  git switch master
+   24  git commit -m "Completed javascript-ajax."
+   25  git switch master
+   26  git pull origin master
+   27  cd ~/repos
+   28  cd code-journal
+   29  issue-3-user-can-edit-an-entry
+   30  git branch --list
+   31  git switch issue-3-user-can-edit-an-entry
+   32  git commit -m "Completed issue-3-user-can-edit-an-entry."
+   33  git add css/styles.css
+   34  git add index.html
+   35  git add js/main.js
+   36  git commit -m "Completed issue-3-user-can-edit-an-entry."
+   37  cd repos
+   38  git clone git@github.com:Alex-Davis0/ajax-project.git
+   39  npm ci
+   40  cd ajax-prject
+   41  npm ci
+   42  cd ajax-project
+   43  npm ci
+   44  cd repos
+   45  cd ajax-project
+   46  git branch User-can-view-a-list-of-classes
+   47  git switch User-can-view-a-list-of-classes
+   48  cd repos
+   49  cd ajax-project
+   50  git commit -m "issue#1 User-can-view-a-list-of-classes"
+   51  git add css/layout.css
+   52  git add css/styles.css
+   53  git add index.html
+   54  git add js/main.js
+   55  git commit -m "issue#1 User-can-view-a-list-of-classes"
+   56  git add css/layout.css
+   57  git add css/styles.css
+   58  git add index.html
+   59  git add js/main.js
+   60  git commit -m "issue#1 User-can-view-a-list-of-classes"
+   61  cd repos
+   62  cd ajax-project
+   63  cd repos
+   64  cd ajax-project
+   65  cd repos
+   66  cd ajax-project
+   67  cd repos
+   68  cd ajax-project
+   69  cd repos
+   70  cd week-planner
+   71  cd repos
+   72  cd rc1121-code-solutions
+   73  pull orgin
+   74  git pull origin 
+   75  git status
+   76  git branch es6-const-let
+   77  git switch es6-const-let
+   78  git status
+   79  git add es6-const-let
+   80  git commit -m "Completed es6-const-let."
+   81  git push origin es6-const-let
+   82  git switch master
+   83  git pull origin
+   84  git branch es6-template-literals
+   85  git switch es6-template-literals
+   86  git add es6-template-literals
+   87  git commit -m " Completed es6-template-literals."
+   88  git push origin es6-template-literals
+   89  git switch master
+   90  git pull origin
+   91  git branch es6-destructuring
+   92  git switch es6-destructuring
+   93  git add es6-destructuring
+   94  git commit -m " Completed es6-destructuring."
+   95  git push origin es6-destructuring
+   96  git add es6-destructuring
+   97  git commit -m " Fixed es6-destructuring."
+   98  git push origin es6-destructuring
+   99  git swtich master
+  100  git switch master
+  101  git pull origin
+  102  git branch es6-arrow-functions
+  103  git switch es6-arrow-functions
+  104  git add es6-arrow-functions
+  105  git commit -m " Completed es6-arrow-functions."
+  106  git push origin es6-arrow-functions
+  107  git switch master
+  108  git branch command-line-basics
+  109  git switch command-line-basics
+  110  cd command-line-basics
+  111  pwd
+  112  man man
+  113  man cat
+  114  cat laziness.txt
+  115  cat impatience.txt
+  116  hubris.txt
+  117  cat hubris.txt
+  118  man cat
+  119  catlaziness.txt impatience.txt hubris.txt
+  120  cat laziness.txt impatience.txt hubris.txt
+  121  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  122  cat three-virtues.txt
+  123  man ls
+  124  lsls
+  125  ls
+  126  ls -a
+  127  ls -F
+  128  ls lfz-staff/
+  129  ls -a lfz-staff/
+  130  ls -F lfz-staff/
+  131  ls -aF lfz-staff > lfz-staff/contents.txt
+  132  cat lfz-staff/contents.txt
+  133  man pwd
+  134  pwd
+  135  pwd > i-was-here.txt
+  136  ls 
+  137  cat i-was-here.txt
+  138  man echo
+  139  echo 'Hello World!'
+  140  echo 'Hello World!' > hello.txt
+  141  ls
+  142  cat hello.txtr
+  143  cat hello.txt
+  144  man touch
+  145  touch tag-your-it.txt
+  146  ls'
+  147  q
+  148  qq
+  149  q
+  150  man touch
+  151  cd repo
+  152  cd repos
+  153  cd rc1121-code-solutions
+  154  cd command-line-basics
+  155  ls
+  156  touch snoot/boop.txt
+  157  snoot/ ls
+  158  ls snoot/
+  159  man mkdir
+  160  mkdir parent
+  161  ls parent/
+  162  ls
+  163  mkdir parent
+  164  man mkdir
+  165  mkdir -p parent/child/grandchild
+  166  touch parent/child/grandchild .gitkeep
+  167  ls -a parent/child/grandchild
+  168  touch parent/child/grandchild .gitkeep
+  169  ls -a parent/child/grandchild
+  170  touch parent/child/grandchild.gitkeep
+  171  ls -a parent/child/grandchild
+  172  man mv
+  173  mv pokiemans pokemon
+  174  ls
+  175  man rm
+  176  rm lol.txt
+  177  ls
+  178  rm -r kill-me/
+  179  ls
+  180  man cp
+  181  cp and-then.txt
+  182  man cp
+  183  cp and-then.txt no-and-then.txt
+  184  ls
+  185  cat and-then.txt no-and-then.txt
+  186  man history
+  187  history
+  188  history > command-history.txt
