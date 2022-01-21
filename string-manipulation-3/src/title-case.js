@@ -1,5 +1,4 @@
 /* exported titleCase */
-
 function titleCase(title) {
   var lowerCased = title.toLowerCase();
   var lowerCasedList = ['and', 'or', 'nor', 'but', 'a', 'as', 'at', 'by', 'for', 'in', 'of', 'on', 'per', 'to', 'the'];
@@ -18,10 +17,6 @@ function titleCase(title) {
       var upperCaseLetter = words[i].charAt(location + 1).toUpperCase();
       var newWord = words[i].substring(0, location + 1) + upperCaseLetter + words[i].substring(location + 2, words[i].length);
       words[i] = newWord;
-    }
-    if (words[i] === 'javascript:') {
-      words[0] = 'JavaScript:';
-      words[1] = 'The';
     }
     if (words[i] === 'Javascript') {
       words[i] = 'JavaScript';
