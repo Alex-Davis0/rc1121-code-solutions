@@ -18,10 +18,6 @@ function titleCase(title) {
       var newWord = words[i].substring(0, location + 1) + upperCaseLetter + words[i].substring(location + 2, words[i].length);
       words[i] = newWord;
     }
-    if (words[i] === 'javascript:') {
-      words[0] = 'JavaScript:';
-      words[1] = 'The';
-    }
     if (words[i] === 'Javascript') {
       words[i] = 'JavaScript';
     }
