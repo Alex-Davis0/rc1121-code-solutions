@@ -1,5 +1,4 @@
 /* exported titleCase */
-
 function titleCase(title) {
   var lowerCased = title.toLowerCase();
   var lowerCasedList = ['and', 'or', 'nor', 'but', 'a', 'as', 'at', 'by', 'for', 'in', 'of', 'on', 'per', 'to', 'the'];
