@@ -5,13 +5,13 @@ const data = require('./data');
 const notes = data.notes;
 
 app.use(express.json());
+
 app.get('/api/notes', (req, res) => {
   const arr = [];
   for (const property in notes) {
     arr.push(notes[property]);
   }
-  res.json(arr);
-  res.sendStatus(200);
+  res.status(200).json(arr);
 });
 
 app.get('/api/notes/:id', (req, res) => {
@@ -21,7 +21,7 @@ app.get('/api/notes/:id', (req, res) => {
   } else if (!notes[id]) {
     res.status(404).json({ error: `can not find note with id ${id}` });
   } else {
-    res.status(200).json(notes[id]);
+    res.json(notes[id]);
   }
 });
 
@@ -72,9 +72,11 @@ app.delete('/api/notes/:id', (req, res) => {
 app.put('/api/notes/:id', (req, res) => {
   const body = req.body;
   const id = Number(req.params.id);
-  if (!id || id < 0 || Number.isInteger(id) === false || !body.content) {
+  if (!id || id < 0 || Number.isInteger(id) === false) {
     res.status(400).json({ error: 'id must be a positive integer' });
-  } else if (!notes[id].content) {
+  } else if (!body.content) {
+    res.status(400).json({ error: 'No Content' });
+  } else if (!notes[id]) {
     res.status(404).json({ error: `can not find note with id ${id}` });
   }
   notes[id].content = body.content;
@@ -84,7 +86,7 @@ app.put('/api/notes/:id', (req, res) => {
       console.error(err);
       res.status(500).json({ error: 'Unexpected error occurrred' });
     } else {
-      res.status(200).json();
+      res.status(200).json(notes[id]);
     }
   });
 });
