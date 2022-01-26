@@ -22,7 +22,7 @@ app.post('/api/grades', (req, res) => {
   grade.id = nextId;
   grades[nextId] = grade;
   nextId++;
-  res.sendStatus(201);
+  res.sendStatus(201).json(grade);
 });
 app.listen(3000, () => {
   // eslint-disable-next-line no-console
