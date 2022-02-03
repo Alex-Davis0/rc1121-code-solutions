@@ -1,0 +1,29 @@
+.btn {
+  color: #fff;
+}
+
+.btn-cold {
+  background-color: rgb(53 28 117);
+}
+
+.btn-cool {
+  background-color: rgb(103 78 167);
+}
+
+.btn-tepid {
+  background-color: rgb(224 102 102);
+}
+
+.btn-warm {
+  background-color: rgb(246 178 107);
+}
+
+.btn-hot {
+  background-color: rgb(231 231 73);
+}
+
+.btn-nuclear {
+  color: red;
+  border-color: red;
+  background-color: rgb(255 255 255);
+}
