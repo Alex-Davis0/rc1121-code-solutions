@@ -15,7 +15,6 @@ class NewsletterForm extends React.Component {
 
   handleSubmit(event) {
     console.log('State:', this.state);
-    alert('A email was submitted:' + this.state.value);
     event.preventDefault();
   }
 
