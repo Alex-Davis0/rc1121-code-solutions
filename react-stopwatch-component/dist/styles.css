@@ -1,0 +1,30 @@
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.border {
+  border: solid black;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 1rem;
+}
+
+.font {
+  font-size: 3rem;
+}
+
+.fa-play {
+  color: hotpink;
+}
+
+.fa-pause {
+  color: hotpink;
+}
