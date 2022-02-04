@@ -12,7 +12,7 @@ class ToggleSwitch extends React.Component {
 
   render() {
     return (
-      <div className='border'>
+      <div className={this.state.isClicked ? 'border-gray' : 'border' }>
         <div className={this.state.isClicked ? 'circle-off' : 'circle-on' } onClick={this.handleClick}>
            {this.state.isClicked ? 'OFF' : 'ON'}</div>
       </div>
