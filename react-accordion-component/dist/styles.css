@@ -1,0 +1,29 @@
+.hidden {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  border-style: solid;
+}
+
+.container {
+  width: 20%;
+}
+
+.title {
+  font-size: 1.2rem;
+  padding-left: 0.4rem;
+  margin: 0.2rem;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.description {
+  font-size: 1rem;
+  padding: 0.4rem;
+  margin: 0.2rem;
+}
