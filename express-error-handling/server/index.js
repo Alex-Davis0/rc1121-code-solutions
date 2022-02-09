@@ -84,10 +84,7 @@ app.put('/api/grades/:gradeId', (req, res, next) => {
   const { name, course } = req.body;
   const score = Number(req.body.score);
   if (!name || !course || !score) {
-    res.status(400).json({
-      error: 'name, course, and score are required fields'
-    });
-    return;
+    throw new ClientError(400, 'name, course, and score are required fields');
   }
   const sql = `
     update "grades"
