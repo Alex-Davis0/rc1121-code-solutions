@@ -1,0 +1,20 @@
+User can sign up
+    user clicks on sign up and it loads the sign up page and they enter
+    a username and password then click the submit button and then handleSubmit
+    function fires off using a fetch method with the post method
+    which post the user name and the hashed password on the data base
+
+User can sign in
+    user enters their username and password and clicks the submit button then the handleSubmit function
+    fires off and it checks if they are signing in or  signing up and if it sees they
+    are signing in and fires off a fetch method to get their  hashed password
+    then compares it using the jwt.verify method and if they are the same it logs
+    the user in
+
+User can stay signed in (even if they refresh the page)
+    when the user refresh the page it checks the state the of the user to see
+    if it is null it will take the user to the login in screen if it not null it doesn't
+    force the user to login in
+
+User can sign out
+    when the user click on sign out it use the handleSignOut function to set the state of user back to null
