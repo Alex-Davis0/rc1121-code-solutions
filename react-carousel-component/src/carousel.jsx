@@ -7,6 +7,13 @@ class Carousel extends React.Component {
       index: 0
     };
 
+    this.leftClick = this.leftClick.bind(this);
+    this.rightClick = this.rightClick.bind(this);
+    this.handleClick = this.handleClick.bind(this);
+    this.checkMatch = this.checkMatch.bind(this);
+  }
+
+  componentDidMount() {
     this.timer = setInterval(() => {
       if (this.state.index === this.props.pokemonList.length - 1) {
         this.setState({ index: 0 });
@@ -14,11 +21,6 @@ class Carousel extends React.Component {
         this.setState({ index: this.state.index + 1 });
       }
     }, 3000);
-
-    this.leftClick = this.leftClick.bind(this);
-    this.rightClick = this.rightClick.bind(this);
-    this.handleClick = this.handleClick.bind(this);
-    this.checkMatch = this.checkMatch.bind(this);
   }
 
   handleClick(event) {
